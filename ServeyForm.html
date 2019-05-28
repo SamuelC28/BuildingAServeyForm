@@ -34,7 +34,7 @@
         Let us know how we can improve freeCodeCamp
     </p>
     <form id="survey-form">
-        <div class="col-sm-4 col-form-label text-md-right">
+        <div class="col-sm-4 col-form-label text-md-right container">
             <div class="setLeft">
                 <label id="name-label" for="name">* Name: </label>
             </div>
@@ -43,7 +43,7 @@
             </div>
 
             <div class="setLeft">
-                <label id="email-label" for="name">* Name: </label>
+                <label id="email-label" for="name">* Email: </label>
             </div>
             <div class="setRight">
                 <input type="email" class="form-control" id="email" name="email" placeholder ="Enter your Email" required>
@@ -130,19 +130,6 @@
 </div>
 
 <style>
- body{
-    background-color: rgb(142, 212, 233);
-    min-width: 320px;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-}
-html{
-    font-size: 14px;
-    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
-}
-/* .{
-    padding-left: 40px;
-} */
 
 .jumbotron { min-height: 1250px; }
 </style>
@@ -150,10 +137,6 @@ html{
 </html>
 
     <style>
-        html body{
-            background-color: rgb(142, 212, 233)
-        
-        }
         
         .nav{
             width: 100%;
@@ -172,7 +155,7 @@ html{
         }
 
         nav a{
-            color: white;
+            color: black;
 
         }
         .nav-logo{
@@ -182,18 +165,37 @@ html{
         .sign-up{
             background-color: #27b573;
             padding: 1em 2em;
-        }
-        
-        title{
-            padding-left: 40px;
+            color: #ffffff
         }
 
-        .setRight {
-            /* display: inline-block; */
-            text-align: left;
-            /* width: 48%; */
-            /* vertical-align: middle; */
-            /* padding-left: 200px; */
+        #form-outer{
+            width: 50%;
+            margin: auto;
+            }
+        
+        .container{
+            width: 100%;
         }
-    </style>
+
+        input.form-control{
+            height:3em;
+        }
+
+        #title,#description{
+            text-align: center;
+        }
+
+        .input-field{
+            width: 80%;
+            height: 20%;
+        }    
+
+            label{
+            margin-top: 1em;
+        }
+        body{
+            background-color: rgb(142, 212, 233)
+        }
+     
+        </style>
 </html>
