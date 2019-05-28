@@ -7,13 +7,27 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+  <img src="" alt="Survey Logo">
+ 	        
+  <nav class="navbar navbar-expand-sm bg-light">
+        <ul class="navbar-nav">
+          <li class="navbar-item">
+            <a class="nav-link" href="#">Login</a>
+          </li>
+          <li class="navbar-item">
+            <a class="nav-link" href="#">Sign Up</a>
+          </li>
+        </ul>
+      </nav>
 </head>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
        
 
 
-<h1  id="title">Survey Form</h1>
+<h1  id="title"><strong>Survey Form</strong></h1>
 <div class="container">
 <div class="jumbotron" style="background-color:#FFFF">
 <div id="form-outer">  
@@ -58,14 +72,14 @@
                 </select> <br>
             </div>
        
-      <div class="setLeft">
-        <label>How likely is that you would recommend freeCodeCamp to a friend?</label>
-      </div>
-      <div class="setRight"></div>
-        <input type="radio" name="option" value="1" checked> Definitely<br>
-        <input type="radio" name="option" value=2> Maybe<br>
-        <input type="radio" name="option" value=3> Not sure <br>
-      </div>
+        <div class="setLeft">
+            <label>How likely is that you would recommend freeCodeCamp to a friend?</label>
+        </div>
+        <div class="setRight">
+            <input type="radio" name="option" value="1" checked> Definitely<br>
+            <input type="radio" name="option" value="2"> Maybe<br>
+            <input type="radio" name="option" value="3"> Not sure <br>
+        </div>
       
       <div class="setLeft">
        <label for="dropdown2label">What do you like most in FCC:</label>
@@ -120,6 +134,11 @@
 html body{
     background-color: rgb(142, 212, 233)
 }
+/* .setLeft{
+    padding-left: 40px;
+} */
+
+.jumbotron { min-height: 1000px; }
 </style>
 
 </html>
