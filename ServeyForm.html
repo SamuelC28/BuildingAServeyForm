@@ -34,7 +34,7 @@
         Let us know how we can improve freeCodeCamp
     </p>
     <form id="survey-form">
-        <div class="col-sm-4 col-form-label text-md-right">
+        <div class="col-sm-4 col-form-label text-md-right container">
             <div class="setLeft">
                 <label id="name-label" for="name">* Name: </label>
             </div>
@@ -43,7 +43,7 @@
             </div>
 
             <div class="setLeft">
-                <label id="email-label" for="name">* Name: </label>
+                <label id="email-label" for="name">* Email: </label>
             </div>
             <div class="setRight">
                 <input type="email" class="form-control" id="email" name="email" placeholder ="Enter your Email" required>
@@ -130,12 +130,6 @@
 </div>
 
 <style>
-html body{
-    background-color: rgb(142, 212, 233)
-}
-/* .setLeft{
-    padding-left: 40px;
-} */
 
 .jumbotron { min-height: 1000px; }
 </style>
@@ -143,10 +137,6 @@ html body{
 </html>
 
     <style>
-        html body{
-            background-color: rgb(142, 212, 233)
-        
-        }
         
         .nav{
             width: 100%;
@@ -165,7 +155,7 @@ html body{
         }
 
         nav a{
-            color: white;
+            color: black;
 
         }
         .nav-logo{
@@ -175,6 +165,33 @@ html body{
         .sign-up{
             background-color: #27b573;
             padding: 1em 2em;
+            color: #ffffff
         }
-    </style>
+
+        #form-outer{
+            width: 50%;
+            margin: auto;
+            }
+        
+        .container{
+            width: 100%;
+        }
+
+        input.form-control{
+            height:3em;
+        }
+
+        #title,#description{
+            text-align: center;
+        }
+
+        .input-field{
+            width: 80%;
+            height: 20%;
+        }    
+
+            label{
+            margin-top: 1em;
+        }
+        </style>
 </html>
