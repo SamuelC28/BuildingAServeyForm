@@ -11,14 +11,15 @@
 
     <body>
       <header>
-        <img src="" alt="Survey Logo">
-        <nav class="navbar navbar-expand-sm bg-light">
-          <ul class="navbar-nav">
-            <li class="navbar-item">
-              <a class="nav-link" href="#">Login</a>
+        <nav class="nav">
+            <img class="nav-logo" src="" alt="Survey Logo">
+          <ul class="nav-container">
+
+            <li>
+              <a href="#" class="nav-element">Login</a>
             </li>
-            <li class="navbar-item">
-              <a class="nav-link" href="#">Sign Up</a>
+            <li>
+              <a href="#" class="nav-element sign-up">Sign Up</a>
             </li>
           </ul>
         </nav>
@@ -64,6 +65,36 @@
     <style>
         html body{
             background-color: rgb(142, 212, 233)
+        
+        }
+        
+        .nav{
+            width: 100%;
+            padding: 2em 3em;
+        }
+
+        .nav-container{
+            float: right;
+
+        }
+        nav li {    
+            list-style-type: none;  
+            margin-left: .5em;
+            float:right;
+            margin-left: 3em;
+        }
+
+        nav a{
+            color: white;
+
+        }
+        .nav-logo{
+            position: relative
+            }
+
+        .sign-up{
+            background-color: #27b573;
+            padding: 1em 2em;
         }
     </style>
 </html>
