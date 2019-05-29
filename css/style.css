@@ -1,0 +1,59 @@
+
+.nav{
+    width: 100%;
+    padding: 2em 3em;
+}
+
+.nav-container{
+    float: right;
+
+}
+nav li {    
+    list-style-type: none;  
+    margin-left: .5em;
+    float:right;
+    margin-left: 3em;
+}
+
+nav a{
+    color: black;
+
+}
+.nav-logo{
+    position: relative
+    }
+
+.sign-up{
+    background-color: #27b573;
+    padding: 1em 2em;
+    color: #ffffff
+}
+
+#form-outer{
+    width: 50%;
+    margin: auto;
+    }
+
+.container{
+    width: 100%;
+}
+
+input.form-control{
+    height:3em;
+}
+
+#title,#description{
+    text-align: center;
+}
+
+.input-field{
+    width: 80%;
+    height: 20%;
+}    
+
+    label{
+    margin-top: 1em;
+}
+body{
+    background-color: rgb(142, 212, 233)
+}
