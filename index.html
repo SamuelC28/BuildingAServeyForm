@@ -10,6 +10,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
     <body>
+            <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+            <script  src="js/index.js"></script>
       <header>
         <nav class="nav">
             <img class="nav-logo" src="" alt="Survey Logo">
@@ -37,10 +39,10 @@
     <form id="survey-form">
         <div class="col-sm-4 col-form-label text-md-right container">
             <div class="setLeft">
-                <label id="name-label" id="name" for="name">* Name: </label>
+                <label id="name-label"  for="name" type="text" >* Name: </label>
             </div>
             <div class="setRight">
-                <input type="text"class="form-control" name="name" placeholder="Enter your name" required>
+                <input type="text"class="form-control" name="name" pattern="[A-Za-z]" id="name" placeholder="Enter your name" required>
             </div>
 
             <div class="setLeft">
